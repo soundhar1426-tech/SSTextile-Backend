@@ -1,0 +1,33 @@
+{
+  "name": "gowtham-tex-backend",
+  "version": "1.0.0",
+  "description": "Backend for Gowtham Tex Wholesale White Towel Business",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/scripts/seed.js",
+    "seed:admin": "node src/scripts/seedAdmin.js",
+    "test:db": "node src/scripts/testDb.js",
+    "test:auth": "node src/scripts/testAuth.js",
+    "test:step5": "node src/scripts/testStep5.js",
+    "test:step6": "node src/scripts/testStep6.js",
+    "test:step7": "node src/scripts/testStep7.js",
+    "test:step8": "node src/scripts/testStep8.js",
+    "test:step9": "node src/scripts/testStep9.js",
+    "test:step10": "node src/scripts/testStep10.js",
+    "test:settings": "node src/scripts/testSettingsSync.js",
+    "test:e2e-product": "node src/scripts/testEndToEndProductFlow.js",
+    "clean:duplicates": "node src/scripts/cleanDuplicates.js",
+    "clean:all": "node src/scripts/resetCleanCatalog.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.9.5"
+  }
+}
